@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const router = express.Router();
 const verifyToken = require("./authMiddleware");
 
-const secretKey = "Tung2003August!ten";
+const secretKey = "kieuyen26";
 
 router.post("/login", async (req, res) => {
   const { username, password } = req.body;
